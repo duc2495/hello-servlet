@@ -1,11 +1,32 @@
-# Compiled
-*.elc
 
-# Packaging
-.cask
+#
+# Project specific excludes
+#
 
-# Backup files
-*~
+tomcat
 
-# Undo-tree save-files
-*.~undo-tree
+#
+# Default excludes
+#
+
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+
+# Maven 
+target/
+
+# eclipse project file
+.settings/
+.classpath
+.project
